@@ -14,7 +14,7 @@ html{
 body{
     display: grid;
     grid-template-columns: 16.04vw 82.708vw;
-    grid-template-rows: 5vh 40vh 11.022vh 41.222vh ;
+    grid-template-rows: 4.8vh 40vh 11.022vh 41.222vh ;
     grid-template-areas: 
         "side-menu top-menu"
         "side-menu banner"
@@ -27,7 +27,6 @@ body{
 a{
     text-decoration: none;
 }
-
 
 /* side menu section */
 
