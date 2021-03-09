@@ -8,7 +8,7 @@
 }
 
 html{
-    background-color: #0f0f0f;
+    background-color: #212121;
 }
 
 body{
@@ -49,6 +49,11 @@ a{
     border: 2px solid blue;
 }
 
+input{
+    background-color: #0F0F0F;
+    border: 0.6px solid rgba(128, 128, 128, 0.377);
+}
+
 /* banner section */
 
 .banner{
@@ -64,4 +69,5 @@ a{
 .video-gallery{
     grid-area: video-gallery;
     border: 2px dashed yellow;
+    background-color: #0F0F0F;
 }
