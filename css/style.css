@@ -11,6 +11,19 @@ html{
     background-color: #0f0f0f;
 }
 
+body{
+    display: grid;
+    grid-template-columns: 16.04vw 82.708vw;
+    grid-template-rows: 5vh 40vh 11.022vh 41.222vh ;
+    grid-template-areas: 
+        "side-menu top-menu"
+        "side-menu banner"
+        "side-menu middle-menu"
+        "side-menu video-gallery";
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
 a{
     text-decoration: none;
 }
@@ -19,6 +32,7 @@ a{
 /* side menu section */
 
 .side-menu{
+    grid-area: side-menu;
     border: 2px solid yellow;
     width: 16.04vw;
     height: 100vh;
@@ -31,9 +45,24 @@ a{
 }
 
 /* top menu section */
-
 .top-menu{
-    border: 2px solid red;
-    width: 82.708vw;
+    grid-area: top-menu;
+    border: 2px solid blue;
+}
 
+/* banner section */
+
+.banner{
+    grid-area: banner;
+    border: 2px solid green;
+}
+
+.middle-menu{
+    grid-area: middle-menu;
+    border: 2px solid purple;
+}
+
+.video-gallery{
+    grid-area: video-gallery;
+    border: 2px dashed yellow;
 }
