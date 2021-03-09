@@ -1,3 +1,5 @@
+@import url();
+
 /* general itens */
 *{
     box-sizing: border-box;
@@ -13,23 +15,39 @@ html{
 
 body{
     display: grid;
-    grid-template-columns: 16.04vw 82.708vw;
-    grid-template-rows: 4.8vh 40vh 11.022vh 41.222vh ;
+    grid-template-columns: 18.04vw 82.708vw;
+    grid-template-rows: 4.8vh 24.288vh 11.022vh 50.222vh ;
     grid-template-areas: 
         "side-menu top-menu"
         "side-menu banner"
         "side-menu middle-menu"
         "side-menu video-gallery";
-    column-gap: 10px;
+    column-gap: 5px;
     row-gap: 10px;
 }
 
 a{
     text-decoration: none;
+    margin: 5%;
+}
+
+sup{
+    font-size: 0.5rem;
+}
+
+li{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.icons{
+    padding-right: 1.225rem;
 }
 
 /* side menu section */
 
+/* general layout */
 .side-menu{
     grid-area: side-menu;
     border: 2px solid yellow;
@@ -37,10 +55,25 @@ a{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
-.side-menu div{
-    border: 2px dashed red;
+
+/* child elements layout */
+.side-menu > div{
+    margin-bottom: 10%;
+    padding: 3%;
+}
+
+
+.separator{
+    height: 0%;
+    width: 100%;
+    border-bottom: 0.1px solid rgba(168, 165, 165, 0.356);
+    margin-bottom:10%;
+}
+
+/* icons layout */
+.burguer-menu{
+    margin-right: 12%;
 }
 
 /* top menu section */
