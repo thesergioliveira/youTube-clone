@@ -94,10 +94,14 @@ input{
     border: 2px solid green;
 }
 
+/* middle section */
+
 .middle-menu{
     grid-area: middle-menu;
     border: 2px solid purple;
 }
+
+/* video gallery */
 
 .video-gallery{
     grid-area: video-gallery;
