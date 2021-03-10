@@ -79,12 +79,25 @@ li{
 /* top menu section */
 .top-menu{
     grid-area: top-menu;
-    border: 2px solid blue;
+    border: 2px dashed red;
+    display: flex;
 }
 
-input{
+input[type="search"]{
     background-color: #0F0F0F;
     border: 0.6px solid rgba(128, 128, 128, 0.377);
+    margin-left: 9.58vw;
+    width: 40.156vw;
+    height: 3.703vh;
+}
+
+.placeholder{
+    margin-left: 2%;
+}
+
+.icons-top-menu{
+    display: flex;
+    justify-content: center;
 }
 
 /* banner section */
