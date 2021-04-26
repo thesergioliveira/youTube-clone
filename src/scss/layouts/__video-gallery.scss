@@ -1,0 +1,21 @@
+/* video gallery */
+
+.video-gallery {
+  grid-area: video-gallery;
+  border: 2px dashed yellow;
+  background-color: #0f0f0f;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+section[class="video-gallery"] img {
+  width: 14.218vw;
+  height: 13.888vh;
+  margin-top: 2%;
+}
+
+section[class="videoo-galerry"] p {
+  width: 14.218vw;
+  height: 13.888vh;
+}
