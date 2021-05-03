@@ -1,6 +1,6 @@
-@import url(./_general.scss);
-@import url(./_side-menu.scss);
-@import url(./_middle-menu-section.scss);
-@import url(./__video-gallery.scss);
-@import url(./_banner-section.scss);
-@import url(./_top-menu-section.scss);
+@import "./banner-section";
+@import "./general";
+@import "./middle-menu-section";
+@import "./side-menu";
+@import "./top-menu-section";
+@import "./video-gallery";

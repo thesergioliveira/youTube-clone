@@ -1,4 +1,4 @@
-@import url(./vendor/__vendor-dir.scss);
-@import url(./abstracts/__abstracts-dir.scss);
-@import url(./components/__components-dir.scss);
-@import url(./layouts/__layouts-dir.scss);
+@import "./abstracts/_abstracts-dir";
+@import "./components/_components-dir";
+@import "./layouts/_layouts-dir";
+@import "./vendor/_vendor-dir";
