@@ -1,0 +1,43 @@
+/* styles for the general layout of the page*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  color: white;
+}
+
+html {
+  background-color: #212121;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 18.04vw 82.708vw;
+  grid-template-rows: 4.8vh 24.288vh 11.022vh 50.222vh;
+  grid-template-areas:
+    "side-menu top-menu"
+    "side-menu banner"
+    "side-menu middle-menu"
+    "side-menu video-gallery";
+  column-gap: 5px;
+  row-gap: 10px;
+}
+
+a {
+  text-decoration: none;
+  margin: 5%;
+}
+
+sup {
+  font-size: 0.5rem;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+}
+
+.icons {
+  padding-right: 1.225rem;
+}

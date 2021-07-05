@@ -1,0 +1,11 @@
+/* banner section */
+
+.banner {
+  grid-area: banner;
+  border: 2px solid green;
+}
+
+.banner div img {
+  width: 100%;
+  height: 100%;
+}
