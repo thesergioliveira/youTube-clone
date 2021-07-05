@@ -6,7 +6,6 @@
 /* banner section */
 .banner {
   grid-area: banner;
-  border: 2px solid green;
 }
 
 .banner div img {
@@ -64,7 +63,6 @@ li {
 /* general layout */
 .side-menu {
   grid-area: side-menu;
-  border: 2px solid yellow;
   width: 16.04vw;
   height: 100vh;
   display: flex;
@@ -87,7 +85,6 @@ li {
 /* top menu section */
 .top-menu {
   grid-area: top-menu;
-  border: 2px dashed red;
   display: flex;
 }
 
@@ -123,7 +120,6 @@ input[type=search] {
 /* video gallery */
 .video-gallery {
   grid-area: video-gallery;
-  border: 2px dashed yellow;
   background-color: #0f0f0f;
   display: flex;
   justify-content: space-around;
