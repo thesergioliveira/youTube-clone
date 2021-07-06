@@ -6,11 +6,39 @@
 /* banner section */
 .banner {
   grid-area: banner;
+  border: 2px solid green;
 }
 
-.banner div img {
+.channel-banner {
   width: 100%;
-  height: 100%;
+  height: 70%;
+}
+
+.banner-footer-wrapper {
+  border: 2px solid red;
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  padding: 3%;
+}
+.banner-footer-wrapper .channel-logo {
+  width: 80x;
+  height: 80px;
+  border-radius: 100%;
+}
+.banner-footer-wrapper button {
+  padding: 10px;
+  background: inherit;
+  border: 2px solid blue;
+  color: blue;
+  margin: 5% 2%;
+}
+.banner-footer-wrapper .signed-up-button {
+  background: gray;
+  border: none;
+  color: white;
+  margin-right: 0;
 }
 
 /* styles for the general layout of the page*/
@@ -29,7 +57,7 @@ html {
 body {
   display: grid;
   grid-template-columns: 18.04vw 82.708vw;
-  grid-template-rows: 4.8vh 24.288vh 11.022vh 50.222vh;
+  grid-template-rows: 4.8vh 29.288vh 6.022vh 50.222vh;
   grid-template-areas: "side-menu top-menu" "side-menu banner" "side-menu middle-menu" "side-menu video-gallery";
   column-gap: 5px;
   row-gap: 10px;
@@ -128,7 +156,7 @@ input[type=search] {
 
 section[class=video-gallery] img {
   width: 14.218vw;
-  height: 13.888vh;
+  height: 12.888vh;
   margin-top: 2%;
 }
 
