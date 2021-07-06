@@ -6,7 +6,7 @@
 }
 
 input[type="search"] {
-  background-color: #0f0f0f;
+  background-color: $primary-input-color;
   border: 0.6px solid rgba(128, 128, 128, 0.377);
   margin-left: 9.58vw;
   width: 40.156vw;
@@ -14,7 +14,7 @@ input[type="search"] {
 }
 
 .search-button {
-  background-color: #313131;
+  background-color: $primary-button-color;
   border: none;
   width: 4.53vw;
   height: 3.88vh;
