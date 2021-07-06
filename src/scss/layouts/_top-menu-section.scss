@@ -3,11 +3,12 @@
   grid-area: top-menu;
   // border: 2px dashed red;
   display: flex;
+  margin-top: 10px;
 }
 
 input[type="search"] {
-  background-color: $primary-input-color;
-  border: 0.6px solid rgba(128, 128, 128, 0.377);
+  background-color: $input-background-color;
+  border: 0.6px solid $input-border-color;
   margin-left: 9.58vw;
   width: 40.156vw;
   height: 3.703vh;

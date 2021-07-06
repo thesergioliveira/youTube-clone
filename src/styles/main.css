@@ -95,6 +95,7 @@ li {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  margin-top: 10px 0 0 10px;
 }
 
 /* child elements layout */
@@ -114,6 +115,7 @@ li {
 .top-menu {
   grid-area: top-menu;
   display: flex;
+  margin-top: 10px;
 }
 
 input[type=search] {
@@ -148,10 +150,25 @@ input[type=search] {
 /* video gallery */
 .video-gallery {
   grid-area: video-gallery;
-  background-color: #0f0f0f;
+  background-color: #212121;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+.video-gallery div {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.video-title .video-information {
+  text-align: left;
+}
+.video-title::before {
+  content: "35";
 }
 
 section[class=video-gallery] img {
