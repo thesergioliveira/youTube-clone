@@ -1,20 +1,10 @@
 /* video gallery */
 
 .video-gallery {
-  grid-area: video-gallery;
-  // border: 2px dashed yellow;
   background-color: $primary-background-color;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap; 
-    div{
-      padding: 10px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
-    }
 }
 
 .video-title{
