@@ -151,26 +151,29 @@ input[type=search] {
 .video-gallery {
   background-color: #212121;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  padding: 2%;
+}
+.video-gallery div[class*=row] {
+  display: flex;
+  padding: 2%;
+  justify-content: start;
   flex-wrap: wrap;
+}
+.video-gallery div[class*=row] div {
+  padding: 2%;
 }
 
 .video-title .video-information {
   text-align: left;
 }
 .video-title::before {
-  content: "35";
+  content: "39";
 }
 
 section[class=video-gallery] img {
   width: 14.218vw;
   height: 12.888vh;
-  margin-top: 2%;
-}
-
-section[class=videoo-galerry] p {
-  width: 14.218vw;
-  height: 13.888vh;
 }
 
 /*# sourceMappingURL=main.css.map */

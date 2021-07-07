@@ -3,11 +3,24 @@
 .video-gallery {
   background-color: $primary-background-color;
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap; 
+  flex-direction: column;
+  // flex-wrap: wrap; 
+  padding: 2%;
+
+  div[class*=row]{
+    display: flex;
+    padding: 2%;
+    justify-content: start;
+    flex-wrap: wrap;
+
+    div{
+      padding: 2%;
+    }
+  }
 }
 
 .video-title{
+
   .video-information{
     text-align: left;
   }
@@ -19,10 +32,6 @@
 section[class="video-gallery"] img {
   width: 14.218vw;
   height: 12.888vh;
-  margin-top: 2%;
 }
 
-section[class="videoo-galerry"] p {
-  width: 14.218vw;
-  height: 13.888vh;
-}
+
