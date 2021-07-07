@@ -3,18 +3,17 @@
 /* general layout */
 .side-menu {
   grid-area: side-menu;
-  // border: 2px solid yellow;
+  padding: 3%;
   width: 16.04vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
-  margin-top: 10px 0 0 10px;
 }
 
 /* child elements layout */
 .side-menu > div {
   margin-bottom: 10%;
-  padding: 3%;
+  padding: 2%;
 }
 
 .separator {

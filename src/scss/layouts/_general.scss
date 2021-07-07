@@ -14,12 +14,11 @@ html {
 body {
   display: grid;
   grid-template-columns: 18.04vw 82.708vw;
-  grid-template-rows: 4.8vh 29.288vh 6.022vh 50.222vh;
+  grid-template-rows: 4.8vh 29.288vh 6.022vh;
   grid-template-areas:
     "side-menu top-menu"
     "side-menu banner"
-    "side-menu middle-menu"
-    "side-menu video-gallery";
+    "side-menu middle-menu";
   column-gap: 5px;
   row-gap: 10px;
 }
